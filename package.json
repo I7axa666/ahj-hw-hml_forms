@@ -1,0 +1,19 @@
+{
+  "name": "html-forms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/I7axa666/ahj-hw-hml_forms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/I7axa666/ahj-hw-hml_forms/issues"
+  },
+  "homepage": "https://github.com/I7axa666/ahj-hw-hml_forms#readme"
+}
