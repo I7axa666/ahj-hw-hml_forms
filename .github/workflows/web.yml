@@ -39,7 +39,7 @@ jobs:
         run: npm run build
 
       - name: Test
-        run: npm run test
+        run: npm run ci
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
