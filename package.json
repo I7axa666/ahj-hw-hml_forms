@@ -7,7 +7,8 @@
     "start": "webpack serve --mode development",
     "lint": "eslint .",
     "build": "webpack --mode production",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "ci": "start-server-and-test start http://localhost:9000 test"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "html-webpack-plugin": "^5.5.4",
     "mini-css-extract-plugin": "^2.7.6",
     "puppeteer": "^21.6.1",
+    "start-server-and-test": "^2.0.3",
     "webpack-dev-server": "^4.15.1",
     "webpack-merge": "^5.10.0"
   }
