@@ -1,0 +1,54 @@
+.button-wrapper {
+    width:fit-content;
+}
+
+.btn {
+    
+    height: 60px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    cursor: pointer;
+}
+
+.popover-body {
+    border: 2px solid rgb(201, 175, 175);
+    max-width: 200px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    position: relative;
+}
+
+.title {
+    border: solid rgb(201, 175, 175);
+    border-width: 0px 0px 2px 0px;
+    text-align: center;
+    background-color: rgb(162, 180, 174);
+
+    font-weight: bold;
+}
+
+.arrow {
+    height: 10px;
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: solid rgb(201, 175, 175);
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    background-color: #fff;
+
+    position: relative;
+    top: 8px;
+}
